@@ -1,0 +1,103 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 600px;
+    max-height: 800px;
+    background-color: antiquewhite;
+    color: black;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50% solid black
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+    max-width: auto;
+    border: 2px solid black;
+    animation: fadeIn 3s;
+}
+
+.menu {
+    margin-left: 20px;
+    margin-top: 10px;
+    max-width: auto;
+    border: 3px solid black;
+    border-top-color: purple;
+    padding: 2px;
+}
+
+#menu1 {
+    margin-left: 10px;
+    text-align: center;
+}
+
+#menu2 {
+    margin-left: 10px;
+    text-align: center;
+}
+
+#text {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#game {
+    max-width: 600px;
+    max-height: 800px;
+    background-color: lightgray;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#controls {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+#stats {
+    border: 1px black solid;
+    color: black;
+    padding: 5px;
+}
+
+#monsterStats {
+    display: none;
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+}
+
+.stat {
+    padding-right: 10px;
+}
+
+#mephoto {
+    position: center;
+    max-width: auto;
+    max-height: 100px;
+
+}
