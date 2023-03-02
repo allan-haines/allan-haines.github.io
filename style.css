@@ -56,6 +56,11 @@ body {
     text-align: center;
 }
 
+#menu3 {
+    margin-left: 10px;
+    text-align: center;
+}
+
 #text {
     background-color: black;
     color: white;
@@ -99,5 +104,44 @@ body {
     position: center;
     max-width: auto;
     max-height: 100px;
+}
 
+#shoppingBag {
+    position: fixed;
+    top: 200px;
+    left: 10px;
+}
+
+#fruitBowl {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+}
+
+#push {
+    position: fixed;
+    top: 500px;
+    left: 25%;
+    padding: 50px;
+    border: solid black 2px
+}
+
+#pushBack {
+    position: fixed;
+    top: 500px;
+    right: 25%;
+    padding: 50px;
+    border: solid black 2px
+}
+
+#arrayHeading {
+    position: fixed;
+    top: 160px;
+    left: 10px;
+}
+
+#arrayTwoHeading {
+    position: fixed;
+    top: 160px;
+    right: 10px;
 }
